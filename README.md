@@ -28,12 +28,12 @@ To analyze the performance trade offs, this process was repeated for three disti
 ## Results
 The compression was highly effective, significantly reducing the model's size while preserving the core artistic style.
 
-| Compression Level | MACs |
-| ------------- | ------------- |
-| Baseline  | 11.3G |
-| Mild | 2.0G |
-| Moderate | 1.75G |
-| Aggressive | 1.5G |
+| Compression Level | MACs | #Parameters |
+| ------------- | ------------- | ------------- |
+| Baseline  | 11.3G | |
+| Mild | 2.0G | ~54.7x |
+| Moderate | 1.75G | ~72.4x |
+| Aggressive | 1.5G | ~74.1x |
 
 
 
