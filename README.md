@@ -3,6 +3,8 @@ This project investigates the practical application of model compression on a la
 
 The core of this research involved taking a pre-trained, high fidelity CycleGAN model, designed to transform photographs into the artistic style of Vincent van Gogh, and applying state of the art compression techniques to make it efficient enough for live video processing.
 
+<img width="976" height="506" alt="Untitled" src="https://github.com/user-attachments/assets/1690687f-ad77-4546-94b4-7de7aaf5905b" />
+
 <br>
 <br>
 
