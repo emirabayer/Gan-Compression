@@ -37,7 +37,7 @@ The compression was highly effective, significantly reducing the model's size wh
 
 | Compression Level | MACs | #Parameters |
 | ------------- | ------------- | ------------- |
-| Baseline  | 11.3G | |
+| Baseline  | 11.3G | - |
 | Mild | 2.0G | ~54.7x |
 | Moderate | 1.75G | ~72.4x |
 | Aggressive | 1.5G | ~74.1x |
