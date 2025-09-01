@@ -3,6 +3,9 @@ This project investigates the practical application of model compression on a la
 
 The core of this research involved taking a pre-trained, high fidelity CycleGAN model, designed to transform photographs into the artistic style of Vincent van Gogh, and applying state of the art compression techniques to make it efficient enough for live video processing.
 
+<br>
+<br>
+
 The project followed a structured research and engineering workflow.
 ## Teacher Model
 
@@ -24,6 +27,8 @@ To analyze the performance trade offs, this process was repeated for three disti
 2. Moderate Compression (Target: 1.75G MACs)
 3. Aggressive Compression (Target: 1.5G MACs)
 
+<br>
+<br>
 
 ## Results
 The compression was highly effective, significantly reducing the model's size while preserving the core artistic style.
@@ -35,14 +40,15 @@ The compression was highly effective, significantly reducing the model's size wh
 | Moderate | 1.75G | ~72.4x |
 | Aggressive | 1.5G | ~74.1x |
 
-
+<br>
+<br>
 
 
 ## Visual Interpretation
 This repository also contains modules for interpretation on an RTSP streaming device (like a smartphone) or OV7670 (no FIFO) camera connected to an STM32F7 or ESP32S3.
 
-
-
+<br>
+<br>
 
 ## Acknowledgements
 
