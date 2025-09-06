@@ -1,4 +1,4 @@
-<img width="976" height="506" alt="Untitled" src="https://github.com/user-attachments/assets/cabbb781-a0d4-4ea5-9379-c586d113c4a1" /># CycleGAN (VanGogh) Compression
+# CycleGAN (VanGogh) Compression
 This project investigates the practical application of model compression on a large scale Generative Adversarial Network (GAN) for real time deployment on a resource constrained edge device, the Raspberry Pi 5. This repository contains additionally OV7670 modules for STM32F7 and ESP32S3, with an RTSP receiver module for added smartphone connectivity. These visual interpretation modules, the gan compression and an additional temperature sensor communication demo were created at a summer internship at MS SPEKTRAL.
 
 The core of this research involved taking a pre-trained, high fidelity CycleGAN model, designed to transform photographs into the artistic style of Vincent van Gogh, and applying state of the art compression techniques to make it efficient enough for live video processing.
